@@ -1,0 +1,170 @@
+/**
+*
+*   Style for application
+*
+*/
+
+:root
+{
+    --color-rose : rgb(170, 12, 91);
+}
+
+.ab-h-100
+{
+    background-color: #f8f9fa !important;
+    min-height: 100%!important;
+}
+
+.bg-rose
+{
+    background: var(--color-rose)!important;
+    color: #fff;
+}
+
+.form-card
+{
+    width: 450px;
+    position: absolute;
+    box-shadow: 0 0 50px 1px rgb(212, 207, 207);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.form-card
+.form-input
+input
+{
+    padding: 12px;
+    border: 1px solid rgb(212, 207, 207);
+}
+
+.display-7
+{
+    font-size: 1.45vw;
+}
+
+.search
+{
+    border: 1px solid #888;
+}
+
+.icon-shape
+{
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 1px rgb(212, 207, 207);
+}
+
+.icon-shape-large
+{
+    width: 96px;
+    height: 96px;
+    font-size: 28px;
+}
+
+.icon-shape-small
+{
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    font-size: 12px;
+}
+
+.icon-shape-medium
+{
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.sidebar 
+{
+    list-style: none;
+}
+
+.sidebar 
+li
+a
+{
+    border: none;
+    background: none;
+}
+
+.sidebar 
+li:hover
+{
+    background: rgb(255, 255, 255)!important;
+    box-shadow: 5px 5px 100px 1px rgb(212, 207, 207);
+    border-radius: 12px;
+}
+
+.box-round
+{
+    border-radius: 16px;
+}
+
+.table
+{
+    font-size: 1.2em;
+}
+
+.table 
+*
+{
+    border: none;
+}
+
+.table 
+thead
+{
+    border-bottom: .5px solid rgb(212, 207, 207);
+}
+
+.table 
+tr td
+{
+    padding: 24px 0!important;
+}
+
+.table 
+thead
+{
+    
+    color: rgb(212, 207, 207);
+    font-size: .7em;
+}
+
+.table 
+tbody 
+tr 
+{
+    border-bottom: .5px solid rgb(212, 207, 207);
+}
+
+.table 
+tbody 
+tr:last-child
+{
+    border: none;
+}
+
+.user-table
+{
+    font-family: sans-serif;
+    font-size: .8vw;
+}
+
+.dropdown-menu
+{
+    border: 1px solid rgb(212, 207, 207)!important;
+    padding: 0;
+}
+
+.dropdown-menu 
+.dropdown-item 
+{
+    padding: 16px;
+}
